@@ -1,6 +1,4 @@
-from flask import Flask, session
-from flask_session import Session
-from flask import Flask, render_template, request
+import flask
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 import requests
